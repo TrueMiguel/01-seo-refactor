@@ -7,25 +7,25 @@
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/* changed all the .header elements to header */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
     
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* changed div to section */
+header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -70,7 +71,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* changed .content to main for better accebility and optimization */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -87,25 +89,19 @@ p {
     background-color: #2589bd;
 }
 
-/* combined .benefit-lead, .benefit-brand, and .benefi-cost into .benefit  */
+/* combined .benefit-lead, .benefit-brand, and .benefit-cost into .benefit  */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* combined .benefit-lead h3, .benefit-brand h3, and .benefi-cost h3 into .benefit  */
+/* combined .benefit-lead h3, .benefit-brand h3, and .benefit-cost h3 into .benefit  */
 
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* combined .benefit-lead img, .benefit-brand img, and .benefi-cost img into .benefit  */
+/* combined .benefit-lead img, .benefit-brand img, and .benefit-cost img into .benefit  */
 
 .benefit img {
     display: block;
@@ -113,7 +109,7 @@ p {
     max-width: 150px;
 }
 
-/* changing .search-engine-optimization, .online-reputation-management, and .social-media-marketing to .products to remove repeating rules */
+/* changing .search-engine-optimization, .online-reputation-management, and .social-media-marketing to .products to remove repeating rules in the first rule, then img and h2 */
 .products {
     margin-bottom: 20px;
     padding: 50px;
@@ -132,13 +128,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }

@@ -6,7 +6,14 @@ Wanted to creat a HTML that was SEO and accessibility friendly. In addition to t
 
 By doing this project I was able to achieve all of the above. 
 
-I learned that making sure that code is writen effeciently is just a important as writing code helps maximize SEO. It is also important to keep accessibility standards in mind.
+I learned that making sure that code is writen effeciently is just a important as writing code helps maximize SEO. It is also important to keep accessibility 
+standards in mind.
+
+## Table of Contents
+- Action Taken
+- HTML Refactor
+- CSS Refactor
+- Results
 
 ## Action taken
 
@@ -34,3 +41,13 @@ After reviewing  the HTML and the CSS I found the following areas that needed to
 * combined .benefit-lead img, .benefit-brand img, and .benefit-cost img into .benefit
 * changing .search-engine-optimization, .online-reputation-management, and .social-media-marketing to .products to remove repeating rules in the first rule, then img and h2
 * updated footer div to footer
+
+## Results
+After refactoring the code has been consolidated and SEO along with accessibility has been prioritized. 
+
+## Live Site
+
+https://truemiguel.github.io/01-seo-refactor/
+
+![Top screen shot showing the result of the Code Refactor.](<assets/Screen shot 1.PNG>)
+![Bottom screen shot showing the result of the Code Refactor.](<assets/Screen shot 2.PNG>)
